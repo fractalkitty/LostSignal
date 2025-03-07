@@ -43,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--background-color);
+  background-color: white;
   border: 1px solid var(--text-color);
   border-radius: 50%;
   text-decoration: none;
