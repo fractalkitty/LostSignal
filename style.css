@@ -240,3 +240,47 @@ footer {
     min-width: 200px;
   }
 }
+
+/* Mobile-friendly adjustments */
+@media (max-width: 480px) {
+  .comic-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .comic-image {
+    width: 100%;
+    height: auto;
+    max-width: 320px;
+  }
+
+  .story-text {
+    width: 100%;
+    max-width: 320px;
+    font-size: 16px;
+  }
+
+  .choices {
+    width: 100%;
+  }
+
+  .choices2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .home-button {
+    top: 10px;
+    left: 10px;
+    --home-button-size: 30px;
+  }
+
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
