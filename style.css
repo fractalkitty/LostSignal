@@ -127,13 +127,12 @@ h3 {
   margin: 5px auto;
 }
 .choices2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: block;
+  width: 300px;
+  grid-template-columns: repeat(1fr, 3);
   gap: 10px;
-  position: fixed;
   margin: 50px auto;
   padding: 20px;
-  overflow: auto;
   justify-content: center;
   align-items: center;
 }
@@ -157,6 +156,7 @@ h3 {
 .choice-button3 {
   width: 100%;
   display: block;
+  margin: 5px;
   padding: 15px 25px;
   background-color: var(--button-bg);
   color: var(--button-text);
