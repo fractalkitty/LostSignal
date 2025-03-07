@@ -82,7 +82,7 @@ body {
 }
 
 .comic-image {
-  max-width: 80%;
+  max-width: 450px;
   height: auto;
   background: white;
   /* border: 1px solid #eee; */
