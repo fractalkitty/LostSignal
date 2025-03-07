@@ -16,7 +16,7 @@
 
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
-  background-color: var(--background-color);
+  background-color: white;
   color: var(--text-color);
   line-height: 1.6;
   max-width: 1200px;
